@@ -1,0 +1,52 @@
+* {
+
+    background-color: #60a478;
+}
+
+
+html {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif
+  }
+  
+  .right {
+    float: right;
+  }
+  
+  .left {
+    display: inline-block;
+  }
+  
+  .square {
+    background-color: white;
+    border: 1px solid black;
+  }
+  
+  .color {
+    background-color: black;
+    border: 1px solid black;
+  }
+  
+  .color2 {
+    background-color: black;
+    border: 1px solid black;
+  }
+  .quantitybox {
+      background-color:white;
+  }
+
+  .reset {
+      background-color: white;
+  }
+  
+  .gridContainer {
+    margin-top: 25px;
+    margin-right: 40px;
+    display: inline-grid;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    border: 5px solid black;
+    border-radius: 3px;
+    height: 575px;
+    width: 575px;
+  }
